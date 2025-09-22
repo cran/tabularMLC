@@ -8,8 +8,8 @@
 // likelihood = (1 / (a * b)) * c
 // a = (2pi)^(L/2)
 // L: number of classes
-// b = det(covarianceMatrixrix)^(1/2)
-// c = exp(d_t * inv(covarianceMatrixrix) * d)
+// b = det(covarianceMatrix)^(1/2)
+// c = exp(d_t * inv(covarianceMatrix) * d)
 // d = (X - mu)
 // X: feature vector
 // mu: mean of feature vector
